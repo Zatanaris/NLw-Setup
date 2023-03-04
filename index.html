@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <head>
+        <link rel="shortcut icon" href="Assets/favicon-16x16.png" type="image/x-icon" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Habits</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-<head>
-    <link rel="shortcut icon" href="Assets/favicon-16x16.png" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Habits</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <body>
+        <header>
+            <img src="Assets/logo.svg" alt="logo" />
 
-<body>
-    <header>
-            <img src="Assets/logo.svg" alt="logo">
+            <button>
+                <img src="Assets/plus.svg" alt="pluas-icone" />
+                <div>Registrar o meu dia</div>
+            </button>
+        </header>
 
-            <button><img src="Assets/plus.svg" alt="pluas-icone"><div> Registrar o meu dia</div></button>
-    </header>    
+        <form id="form-habits">
+            <div class="habits">
+                <div class="habit" data-name="run">🏃‍♂️</div>
+                <div class="habit" data-name="trainig">💪</div>
+                <div class="habit" data-name="books">📚</div>
+                <div class="habit" data-name="programing">💻</div>
+                <div class="habit" data-name="lerning-ingles">🔊</div>
+                <div class="habit" data-name="water">💧</div>
+            </div>
 
-    <form id="form-habits">
-        <div class="habits">
-            <div class="habit" data-name="run">🏃‍♂️</div>
-            <div class="habit" data-name="trainig">💪</div>
-            <div class="habit" data-name="books">📚</div>
-            <div class="habit" data-name="programing">💻</div>
-            <div class="habit" data-name="lerning-ingles">🔊</div>
-        </div>
+            <div class="days"></div>
+        </form>
 
-        <div class="days"></div>
-    </form>
-
-
-    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
-    <script src="main.js"></script>
-</body>
-
+        <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+        <script src="main.js"></script>
+    </body>
 </html>
